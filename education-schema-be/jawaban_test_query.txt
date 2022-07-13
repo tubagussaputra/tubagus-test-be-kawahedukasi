@@ -1,0 +1,4 @@
+SELECT * FROM `kawahedukasi` order by gaji DESC;
+SELECT * FROM `kawahedukasi` WHERE kelas = "FRONTEND" ORDER BY gaji DESC,nilai DESC
+SELECT COUNT(nama) FROM `kawahedukasi` WHERE kelas = "FRONTEND";
+SELECT MAX(jumlah_kehadiran),MAX(nilai) FROM `kawahedukasi` WHERE kelas = "FRONTEND";
